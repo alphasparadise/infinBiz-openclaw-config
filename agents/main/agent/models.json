@@ -6,8 +6,8 @@
       "api": "ollama",
       "models": [
         {
-          "id": "qwen2.5-coder:7b",
-          "name": "qwen2.5-coder:7b",
+          "id": "kimi-k2.5:cloud",
+          "name": "kimi-k2.5:cloud",
           "reasoning": false,
           "input": [
             "text"

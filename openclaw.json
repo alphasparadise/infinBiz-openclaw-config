@@ -1,6 +1,10 @@
 {
+  "meta": {
+    "lastTouchedVersion": "2026.3.23-2",
+    "lastTouchedAt": "2026-03-26T05:38:19.092Z"
+  },
   "wizard": {
-    "lastRunAt": "2026-03-25T05:58:48.298Z",
+    "lastRunAt": "2026-03-26T05:38:19.057Z",
     "lastRunVersion": "2026.3.23-2",
     "lastRunCommand": "configure",
     "lastRunMode": "local"
@@ -102,6 +106,14 @@
       "subagents": {
         "maxConcurrent": 8
       }
+    },
+    "main": {
+      "skills": [
+        "telegram",
+        "web_fetch",
+        "peekaboo"
+      ],
+      "description": "Main controller agent managing workflows"
     }
   },
   "tools": {
@@ -157,9 +169,5 @@
         "enabled": true
       }
     }
-  },
-  "meta": {
-    "lastTouchedVersion": "2026.3.23-2",
-    "lastTouchedAt": "2026-03-25T05:58:48.325Z"
   }
 }
