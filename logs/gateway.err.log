@@ -1,0 +1,357 @@
+2026-03-25T01:56:47.149-04:00 [reload] config change requires gateway restart (channels)
+2026-03-25T02:23:47.005-04:00 [tools] read failed: ENOENT: no such file or directory, access '/Users/alphahuynh/openclaw/infinBiz/memory/2026-03-25.md'
+2026-03-25T02:23:47.012-04:00 [tools] read failed: ENOENT: no such file or directory, access '/Users/alphahuynh/openclaw/infinBiz/memory/2026-03-24.md'
+2026-03-25T02:23:47.015-04:00 [tools] read failed: ENOENT: no such file or directory, access '/Users/alphahuynh/openclaw/infinBiz/MEMORY.md'
+2026-03-25T02:25:28.612-04:00 [agent/embedded] embedded run agent end: runId=16a05ac9-aa9d-4453-9d6c-7b121149ab41 isError=true model=ollama/qwen2.5-code:7b provider=ollama error=Ollama API error 404: {"error":"model 'ollama/qwen2.5-code:7b' not found"} rawError=Ollama API error 404: {"error":"model 'ollama/qwen2.5-code:7b' not found"}
+2026-03-25T02:25:28.616-04:00 [agent/embedded] auth profile failure state updated: runId=16a05ac9-aa9d-4453-9d6c-7b121149ab41 profile=sha256:9c018ec112cf provider=ollama reason=model_not_found window=cooldown reused=false
+2026-03-25T02:25:28.618-04:00 [agent/embedded] embedded run failover decision: runId=16a05ac9-aa9d-4453-9d6c-7b121149ab41 stage=assistant decision=surface_error reason=model_not_found provider=ollama/ollama/qwen2.5-code:7b profile=sha256:9c018ec112cf
+2026-03-25T02:25:59.490-04:00 [agent/embedded] embedded run agent end: runId=198ebdfa-ee7f-461d-a46a-685a3383c9fd isError=true model=qwen2.5-code:7b provider=ollama error=Ollama API error 404: {"error":"model 'qwen2.5-code:7b' not found"} rawError=Ollama API error 404: {"error":"model 'qwen2.5-code:7b' not found"}
+2026-03-25T02:25:59.493-04:00 [agent/embedded] auth profile failure state updated: runId=198ebdfa-ee7f-461d-a46a-685a3383c9fd profile=sha256:9c018ec112cf provider=ollama reason=model_not_found window=cooldown reused=false
+2026-03-25T02:25:59.494-04:00 [agent/embedded] embedded run failover decision: runId=198ebdfa-ee7f-461d-a46a-685a3383c9fd stage=assistant decision=surface_error reason=model_not_found provider=ollama/qwen2.5-code:7b profile=sha256:9c018ec112cf
+2026-03-25T02:27:30.460-04:00 [tools] read failed: ENOENT: no such file or directory, access '/Users/alphahuynh/openclaw/infinBiz/MEMORY.md'
+2026-03-25T02:28:27.075-04:00 [tools] browser failed: request required
+2026-03-25T02:29:12.526-04:00 [tools] read failed: ENOENT: no such file or directory, access '/opt/homebrew/lib/node_modules/openclaw/skills/browser/SKILL.md'
+2026-03-25T02:35:18.157-04:00 [tools] browser failed: tab not found
+2026-03-25T02:35:30.542-04:00 [tools] browser failed: tab not found
+2026-03-25T02:35:43.708-04:00 [tools] browser failed: tab not found
+2026-03-25T02:48:59.431-04:00 [telegram] Polling stall detected (no getUpdates for 461.91s); forcing restart.
+2026-03-25T02:48:59.439-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 2.06s.
+2026-03-25T03:05:51.215-04:00 [telegram] Polling stall detected (no getUpdates for 978.69s); forcing restart.
+2026-03-25T03:05:51.226-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 4.37s.
+2026-03-25T03:15:39.108-04:00 [telegram] Polling stall detected (no getUpdates for 491.73s); forcing restart.
+2026-03-25T03:15:39.115-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 7.14s.
+2026-03-25T03:40:20.156-04:00 [telegram] Polling stall detected (no getUpdates for 1047.5s); forcing restart.
+2026-03-25T03:40:20.213-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 12.91s.
+2026-03-25T04:31:29.220-04:00 [telegram] Polling stall detected (no getUpdates for 927.04s); forcing restart.
+2026-03-25T04:31:29.304-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 25.9s.
+2026-03-25T04:31:44.209-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T04:40:08.199-04:00 [telegram] Polling stall detected (no getUpdates for 492.21s); forcing restart.
+2026-03-25T04:40:08.207-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T04:40:23.205-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T04:56:51.202-04:00 [telegram] Polling stall detected (no getUpdates for 972.18s); forcing restart.
+2026-03-25T04:56:51.210-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T04:57:06.234-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T05:14:10.251-04:00 [telegram] Polling stall detected (no getUpdates for 978.07s); forcing restart.
+2026-03-25T05:14:10.331-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T05:14:25.265-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T05:31:41.593-04:00 [telegram] Polling stall detected (no getUpdates for 1020.41s); forcing restart.
+2026-03-25T05:31:41.605-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T05:31:56.612-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T05:41:08.291-04:00 [telegram] Polling stall detected (no getUpdates for 535.83s); forcing restart.
+2026-03-25T05:41:08.298-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T05:41:23.300-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T05:56:56.309-04:00 [telegram] Polling stall detected (no getUpdates for 917.17s); forcing restart.
+2026-03-25T05:56:56.315-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T05:57:11.301-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T06:15:03.279-04:00 [telegram] Polling stall detected (no getUpdates for 1026.06s); forcing restart.
+2026-03-25T06:15:03.415-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T06:15:18.224-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T06:31:25.229-04:00 [telegram] Polling stall detected (no getUpdates for 951.03s); forcing restart.
+2026-03-25T06:31:25.236-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T06:31:40.230-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T06:42:08.211-04:00 [telegram] Polling stall detected (no getUpdates for 612.16s); forcing restart.
+2026-03-25T06:42:08.224-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T06:42:23.224-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T06:57:57.207-04:00 [telegram] Polling stall detected (no getUpdates for 918.12s); forcing restart.
+2026-03-25T06:57:57.213-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T06:58:12.209-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T07:16:40.173-04:00 [telegram] Polling stall detected (no getUpdates for 984.49s); forcing restart.
+2026-03-25T07:16:40.176-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T07:16:55.238-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T07:32:34.237-04:00 [telegram] Polling stall detected (no getUpdates for 923.21s); forcing restart.
+2026-03-25T07:32:34.239-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T07:32:49.232-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T07:43:08.228-04:00 [telegram] Polling stall detected (no getUpdates for 603.18s); forcing restart.
+2026-03-25T07:43:08.235-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T07:43:23.239-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T08:01:02.227-04:00 [telegram] Polling stall detected (no getUpdates for 1013.05s); forcing restart.
+2026-03-25T08:01:02.317-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T08:01:17.243-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T08:16:52.206-04:00 [telegram] Polling stall detected (no getUpdates for 919.05s); forcing restart.
+2026-03-25T08:16:52.208-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T08:17:07.221-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T08:30:00.272-04:00 [telegram] Polling stall detected (no getUpdates for 757.23s); forcing restart.
+2026-03-25T08:30:00.278-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T08:30:15.283-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T08:44:08.275-04:00 [telegram] Polling stall detected (no getUpdates for 817.17s); forcing restart.
+2026-03-25T08:44:08.288-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T08:44:23.298-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T09:00:10.999-04:00 [telegram] Polling stall detected (no getUpdates for 901.75s); forcing restart.
+2026-03-25T09:00:11.138-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T09:00:26.008-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T09:14:21.313-04:00 [telegram] Polling stall detected (no getUpdates for 819.36s); forcing restart.
+2026-03-25T09:14:21.321-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T09:14:36.324-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T09:20:14.466-04:00 [telegram] Polling stall detected (no getUpdates for 322.29s); forcing restart.
+2026-03-25T09:20:14.481-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T09:20:29.477-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T09:24:19.794-04:00 [telegram] Polling stall detected (no getUpdates for 214.49s); forcing restart.
+2026-03-25T09:24:19.799-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T09:24:34.802-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T09:41:59.333-04:00 [telegram] Polling stall detected (no getUpdates for 1028.72s); forcing restart.
+2026-03-25T09:41:59.334-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T09:42:14.323-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T09:45:08.296-04:00 [telegram] Polling stall detected (no getUpdates for 128.04s); forcing restart.
+2026-03-25T09:45:08.376-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T09:45:23.303-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T10:01:52.302-04:00 [telegram] Polling stall detected (no getUpdates for 973.15s); forcing restart.
+2026-03-25T10:01:52.304-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T10:02:07.301-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T10:19:24.308-04:00 [telegram] Polling stall detected (no getUpdates for 1021.19s); forcing restart.
+2026-03-25T10:19:24.315-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T10:19:39.325-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T10:36:29.329-04:00 [telegram] Polling stall detected (no getUpdates for 994.2s); forcing restart.
+2026-03-25T10:36:29.333-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T10:36:44.351-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T10:46:08.355-04:00 [telegram] Polling stall detected (no getUpdates for 548.19s); forcing restart.
+2026-03-25T10:46:08.362-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T10:46:23.365-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T11:02:10.997-04:00 [telegram] Polling stall detected (no getUpdates for 901.72s); forcing restart.
+2026-03-25T11:02:11.133-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T11:02:25.999-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T11:19:30.378-04:00 [telegram] Polling stall detected (no getUpdates for 1008.44s); forcing restart.
+2026-03-25T11:19:30.384-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T11:19:45.396-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T11:22:31.945-04:00 [telegram] Polling stall detected (no getUpdates for 150.74s); forcing restart.
+2026-03-25T11:22:31.951-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T11:22:46.954-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T11:27:22.974-04:00 [telegram] Polling stall detected (no getUpdates for 260.21s); forcing restart.
+2026-03-25T11:27:22.981-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T11:27:37.981-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T11:45:04.399-04:00 [telegram] Polling stall detected (no getUpdates for 1030.62s); forcing restart.
+2026-03-25T11:45:04.401-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T11:45:19.412-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T12:03:50.434-04:00 [telegram] Polling stall detected (no getUpdates for 971.02s); forcing restart.
+2026-03-25T12:03:50.439-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T12:04:05.381-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T12:21:35.383-04:00 [telegram] Polling stall detected (no getUpdates for 1034.17s); forcing restart.
+2026-03-25T12:21:35.391-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T12:21:50.382-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T12:37:22.898-04:00 [telegram] Polling stall detected (no getUpdates for 916.75s); forcing restart.
+2026-03-25T12:37:22.901-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T12:37:37.901-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T12:42:19.859-04:00 [telegram] Polling stall detected (no getUpdates for 266.12s); forcing restart.
+2026-03-25T12:42:19.865-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T12:42:34.868-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T12:44:45.575-04:00 [telegram] Polling stall detected (no getUpdates for 114.87s); forcing restart.
+2026-03-25T12:44:45.582-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T12:45:00.590-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T12:48:08.347-04:00 [telegram] Polling stall detected (no getUpdates for 171.93s); forcing restart.
+2026-03-25T12:48:08.356-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T12:48:23.360-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T13:04:37.331-04:00 [telegram] Polling stall detected (no getUpdates for 958.18s); forcing restart.
+2026-03-25T13:04:37.333-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T13:04:52.349-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T13:24:49.373-04:00 [telegram] Polling stall detected (no getUpdates for 938.15s); forcing restart.
+2026-03-25T13:24:49.379-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T13:25:04.406-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T13:41:27.423-04:00 [telegram] Polling stall detected (no getUpdates for 967.14s); forcing restart.
+2026-03-25T13:41:27.429-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T13:41:42.419-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T13:46:02.433-04:00 [telegram] Polling stall detected (no getUpdates for 153.33s); forcing restart.
+2026-03-25T13:46:02.491-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T13:46:17.440-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T13:49:08.401-04:00 [telegram] Polling stall detected (no getUpdates for 155.06s); forcing restart.
+2026-03-25T13:49:08.408-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T13:49:23.410-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T14:04:56.416-04:00 [telegram] Polling stall detected (no getUpdates for 917.18s); forcing restart.
+2026-03-25T14:04:56.420-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T14:05:11.441-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T14:20:43.974-04:00 [telegram] Polling stall detected (no getUpdates for 916.69s); forcing restart.
+2026-03-25T14:20:43.982-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T14:20:58.965-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T14:37:32.417-04:00 [telegram] Polling stall detected (no getUpdates for 977.65s); forcing restart.
+2026-03-25T14:37:32.424-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T14:37:47.442-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T14:48:08.651-04:00 [telegram] Polling stall detected (no getUpdates for 220.92s); forcing restart.
+2026-03-25T14:48:08.656-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T14:48:23.658-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T14:59:07.087-04:00 [telegram] Polling stall detected (no getUpdates for 521.97s); forcing restart.
+2026-03-25T14:59:07.234-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T14:59:22.108-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T15:14:54.634-04:00 [telegram] Polling stall detected (no getUpdates for 916.6s); forcing restart.
+2026-03-25T15:14:54.636-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T15:15:09.633-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T15:23:08.937-04:00 [telegram] Polling stall detected (no getUpdates for 463.48s); forcing restart.
+2026-03-25T15:23:08.943-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T15:23:23.943-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T15:39:07.398-04:00 [telegram] Polling stall detected (no getUpdates for 927.23s); forcing restart.
+2026-03-25T15:39:07.406-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T15:39:22.401-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T15:56:16.482-04:00 [telegram] Polling stall detected (no getUpdates for 998.27s); forcing restart.
+2026-03-25T15:56:16.493-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T15:56:31.469-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T16:13:59.445-04:00 [telegram] Polling stall detected (no getUpdates for 1002.09s); forcing restart.
+2026-03-25T16:13:59.584-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T16:14:14.393-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T16:30:09.381-04:00 [telegram] Polling stall detected (no getUpdates for 939.07s); forcing restart.
+2026-03-25T16:30:09.388-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T16:30:24.411-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T16:47:03.406-04:00 [telegram] Polling stall detected (no getUpdates for 983.15s); forcing restart.
+2026-03-25T16:47:03.417-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T16:47:18.416-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T16:49:40.389-04:00 [telegram] Polling stall detected (no getUpdates for 126.16s); forcing restart.
+2026-03-25T16:49:40.399-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T16:49:55.399-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T16:52:44.059-04:00 [telegram] Polling stall detected (no getUpdates for 152.87s); forcing restart.
+2026-03-25T16:52:44.065-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T16:52:59.069-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T17:08:39.760-04:00 [telegram] Polling stall detected (no getUpdates for 924.9s); forcing restart.
+2026-03-25T17:08:39.763-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T17:08:54.771-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T17:25:24.398-04:00 [telegram] Polling stall detected (no getUpdates for 973.81s); forcing restart.
+2026-03-25T17:25:24.407-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T17:25:39.433-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T17:44:16.447-04:00 [telegram] Polling stall detected (no getUpdates for 984.05s); forcing restart.
+2026-03-25T17:44:16.453-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T17:44:31.462-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T17:50:40.456-04:00 [telegram] Polling stall detected (no getUpdates for 323.02s); forcing restart.
+2026-03-25T17:50:40.513-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T17:50:55.465-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T18:06:28.041-04:00 [telegram] Polling stall detected (no getUpdates for 916.71s); forcing restart.
+2026-03-25T18:06:28.046-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T18:06:43.064-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T18:24:19.502-04:00 [telegram] Polling stall detected (no getUpdates for 1040.58s); forcing restart.
+2026-03-25T18:24:19.511-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T18:24:34.519-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T18:40:06.527-04:00 [telegram] Polling stall detected (no getUpdates for 916.18s); forcing restart.
+2026-03-25T18:40:06.534-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T18:40:21.553-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T18:51:40.562-04:00 [telegram] Polling stall detected (no getUpdates for 599.8s); forcing restart.
+2026-03-25T18:51:40.571-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T18:51:55.574-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T18:56:26.855-04:00 [telegram] Polling stall detected (no getUpdates for 225.33s); forcing restart.
+2026-03-25T18:56:26.919-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T18:56:41.855-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T19:03:47.284-04:00 [telegram] Polling stall detected (no getUpdates for 173.99s); forcing restart.
+2026-03-25T19:03:47.293-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T19:04:02.296-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T19:06:45.445-04:00 [telegram] Polling stall detected (no getUpdates for 147.32s); forcing restart.
+2026-03-25T19:06:45.452-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T19:07:00.453-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T19:08:49.967-04:00 [telegram] Polling stall detected (no getUpdates for 93.69s); forcing restart.
+2026-03-25T19:08:49.972-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T19:09:04.975-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T19:15:17.470-04:00 [telegram] Polling stall detected (no getUpdates for 257.75s); forcing restart.
+2026-03-25T19:15:17.476-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T19:15:32.487-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T19:21:23.982-04:00 [telegram] Polling stall detected (no getUpdates for 251.07s); forcing restart.
+2026-03-25T19:21:23.988-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T19:21:38.991-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T19:27:43.488-04:00 [telegram] Polling stall detected (no getUpdates for 94.71s); forcing restart.
+2026-03-25T19:27:43.495-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T19:27:58.498-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T19:30:45.662-04:00 [telegram] Polling stall detected (no getUpdates for 151.31s); forcing restart.
+2026-03-25T19:30:45.669-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T19:31:00.672-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T19:34:07.501-04:00 [telegram] Polling stall detected (no getUpdates for 170.98s); forcing restart.
+2026-03-25T19:34:07.508-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T19:34:22.511-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T19:37:16.433-04:00 [telegram] Polling stall detected (no getUpdates for 97.59s); forcing restart.
+2026-03-25T19:37:16.499-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T19:37:31.441-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T19:42:20.878-04:00 [telegram] Polling stall detected (no getUpdates for 273.55s); forcing restart.
+2026-03-25T19:42:20.883-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T19:42:35.885-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T19:48:02.697-04:00 [telegram] Polling stall detected (no getUpdates for 232.01s); forcing restart.
+2026-03-25T19:48:02.704-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T19:48:17.704-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T19:56:26.614-04:00 [telegram] Polling stall detected (no getUpdates for 167.62s); forcing restart.
+2026-03-25T19:56:26.620-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T19:56:41.622-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T20:01:59.935-04:00 [telegram] Polling stall detected (no getUpdates for 120.17s); forcing restart.
+2026-03-25T20:02:00.006-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T20:02:14.943-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T20:06:24.750-04:00 [telegram] Polling stall detected (no getUpdates for 233.92s); forcing restart.
+2026-03-25T20:06:24.755-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T20:06:39.683-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T20:13:10.489-04:00 [telegram] Polling stall detected (no getUpdates for 374.98s); forcing restart.
+2026-03-25T20:13:10.496-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T20:13:25.495-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T20:15:33.339-04:00 [telegram] Polling stall detected (no getUpdates for 112.01s); forcing restart.
+2026-03-25T20:15:33.345-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T20:15:48.348-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T20:18:51.896-04:00 [telegram] Polling stall detected (no getUpdates for 167.69s); forcing restart.
+2026-03-25T20:18:51.902-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T20:19:06.905-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T20:21:03.172-04:00 [telegram] Polling stall detected (no getUpdates for 100.41s); forcing restart.
+2026-03-25T20:21:03.179-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T20:21:18.182-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T20:26:11.811-04:00 [telegram] Polling stall detected (no getUpdates for 277.8s); forcing restart.
+2026-03-25T20:26:11.818-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T20:26:26.834-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T20:30:31.832-04:00 [telegram] Polling stall detected (no getUpdates for 229.15s); forcing restart.
+2026-03-25T20:30:31.839-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T20:30:46.843-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T20:32:43.724-04:00 [telegram] Polling stall detected (no getUpdates for 101.05s); forcing restart.
+2026-03-25T20:32:43.730-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T20:32:58.733-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T20:35:08.929-04:00 [telegram] Polling stall detected (no getUpdates for 114.35s); forcing restart.
+2026-03-25T20:35:08.936-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T20:35:23.940-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T20:51:59.607-04:00 [telegram] Polling stall detected (no getUpdates for 979.83s); forcing restart.
+2026-03-25T20:51:59.614-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T20:52:14.612-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T21:08:26.602-04:00 [telegram] Polling stall detected (no getUpdates for 926.07s); forcing restart.
+2026-03-25T21:08:26.684-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T21:08:41.616-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T21:24:27.418-04:00 [telegram] Polling stall detected (no getUpdates for 929.91s); forcing restart.
+2026-03-25T21:24:27.430-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T21:24:42.424-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T21:26:58.861-04:00 [telegram] Polling stall detected (no getUpdates for 120.59s); forcing restart.
+2026-03-25T21:26:58.867-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T21:27:13.870-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T21:31:13.022-04:00 [telegram] Polling stall detected (no getUpdates for 117.45s); forcing restart.
+2026-03-25T21:31:13.028-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T21:31:28.032-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T21:47:59.623-04:00 [telegram] Polling stall detected (no getUpdates for 975.75s); forcing restart.
+2026-03-25T21:47:59.635-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T21:48:14.632-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T21:50:50.935-04:00 [telegram] Polling stall detected (no getUpdates for 110.33s); forcing restart.
+2026-03-25T21:50:50.988-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T21:51:05.942-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T22:08:13.625-04:00 [telegram] Polling stall detected (no getUpdates for 920.84s); forcing restart.
+2026-03-25T22:08:13.768-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T22:08:28.631-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T22:11:34.801-04:00 [telegram] Polling stall detected (no getUpdates for 170.21s); forcing restart.
+2026-03-25T22:11:34.807-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T22:11:49.808-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T22:16:40.264-04:00 [telegram] Polling stall detected (no getUpdates for 274.62s); forcing restart.
+2026-03-25T22:16:40.271-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T22:16:55.273-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T22:33:31.630-04:00 [telegram] Polling stall detected (no getUpdates for 980.56s); forcing restart.
+2026-03-25T22:33:31.637-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T22:33:46.651-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T22:50:33.652-04:00 [telegram] Polling stall detected (no getUpdates for 991.16s); forcing restart.
+2026-03-25T22:50:33.661-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T22:50:48.657-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T23:09:42.654-04:00 [telegram] Polling stall detected (no getUpdates for 972.06s); forcing restart.
+2026-03-25T23:09:42.659-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T23:09:57.675-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T23:25:30.244-04:00 [telegram] Polling stall detected (no getUpdates for 916.74s); forcing restart.
+2026-03-25T23:25:30.254-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T23:25:45.250-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T23:41:33.674-04:00 [telegram] Polling stall detected (no getUpdates for 932.63s); forcing restart.
+2026-03-25T23:41:33.683-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T23:41:48.663-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-25T23:53:59.641-04:00 [telegram] Polling stall detected (no getUpdates for 715.14s); forcing restart.
+2026-03-25T23:53:59.648-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-25T23:54:14.648-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-26T00:00:00.648-04:00 [telegram] Polling stall detected (no getUpdates for 330.17s); forcing restart.
+2026-03-26T00:00:00.656-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-26T00:00:15.669-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-26T00:15:46.658-04:00 [telegram] Polling stall detected (no getUpdates for 915.18s); forcing restart.
+2026-03-26T00:15:46.665-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-26T00:16:01.650-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-26T00:31:34.125-04:00 [telegram] Polling stall detected (no getUpdates for 916.67s); forcing restart.
+2026-03-26T00:31:34.127-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-26T00:31:49.145-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-26T00:35:54.762-04:00 [telegram] Polling stall detected (no getUpdates for 229.79s); forcing restart.
+2026-03-26T00:35:54.769-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-26T00:36:09.772-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-26T00:53:34.643-04:00 [telegram] Polling stall detected (no getUpdates for 1029.02s); forcing restart.
+2026-03-26T00:53:34.650-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-26T00:53:49.678-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.
+2026-03-26T01:03:25.713-04:00 [telegram] Polling stall detected (no getUpdates for 530.05s); forcing restart.
+2026-03-26T01:03:25.843-04:00 [telegram] polling runner stopped (polling stall detected); restarting in 30s.
+2026-03-26T01:03:40.722-04:00 [telegram] Polling runner stop timed out after 15s; forcing restart cycle.

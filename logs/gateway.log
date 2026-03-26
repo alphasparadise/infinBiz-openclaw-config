@@ -1,0 +1,76 @@
+2026-03-25T01:55:32.022-04:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/alphahuynh/.openclaw/canvas)
+2026-03-25T01:55:32.057-04:00 [heartbeat] started
+2026-03-25T01:55:32.058-04:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-25T01:55:32.061-04:00 [gateway] agent model: ollama/kimi-k2.5:cloud
+2026-03-25T01:55:32.061-04:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 10089)
+2026-03-25T01:55:32.062-04:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-25.log
+2026-03-25T01:55:32.079-04:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-25T01:56:02.983-04:00 [gateway] signal SIGTERM received
+2026-03-25T01:56:02.989-04:00 [gateway] received SIGTERM; shutting down
+2026-03-25T01:56:02.999-04:00 [gmail-watcher] gmail watcher stopped
+2026-03-25T01:56:04.034-04:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/alphahuynh/.openclaw/canvas)
+2026-03-25T01:56:04.060-04:00 [heartbeat] started
+2026-03-25T01:56:04.061-04:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-25T01:56:04.063-04:00 [gateway] agent model: ollama/kimi-k2.5:cloud
+2026-03-25T01:56:04.064-04:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 10155)
+2026-03-25T01:56:04.065-04:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-25.log
+2026-03-25T01:56:04.081-04:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-25T01:56:47.137-04:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, wizard.lastRunAt, channels)
+2026-03-25T01:56:47.152-04:00 [gateway] signal SIGUSR1 received
+2026-03-25T01:56:47.153-04:00 [gateway] received SIGUSR1; restarting
+2026-03-25T01:56:47.157-04:00 [gmail-watcher] gmail watcher stopped
+2026-03-25T01:56:47.164-04:00 [gateway] restart mode: full process restart (supervisor restart)
+2026-03-25T01:56:49.324-04:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/alphahuynh/.openclaw/canvas)
+2026-03-25T01:56:49.344-04:00 [heartbeat] started
+2026-03-25T01:56:49.345-04:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-25T01:56:49.347-04:00 [gateway] agent model: ollama/kimi-k2.5:cloud
+2026-03-25T01:56:49.348-04:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 10205)
+2026-03-25T01:56:49.348-04:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-25.log
+2026-03-25T01:56:49.362-04:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-25T01:56:49.362-04:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-25T01:56:49.390-04:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-25T01:56:50.317-04:00 [telegram] [default] starting provider (@alphaxparadise_bot)
+2026-03-25T01:56:50.320-04:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-25T01:56:50.322-04:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-25T01:58:48.882-04:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, wizard.lastRunAt)
+2026-03-25T01:58:48.898-04:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt, wizard.lastRunAt)
+2026-03-25T01:59:17.208-04:00 [gateway] device pairing auto-approved device=fd724dc489bfc18ac658a9670944791d0006f49533b298e70d9136f77404d0f4 role=operator
+2026-03-25T02:01:36.944-04:00 [ws] ⇄ res ✓ channels.status 494ms conn=c825eae6…bf2a id=67611cdb…df38
+2026-03-25T02:09:38.867-04:00 [gateway] signal SIGTERM received
+2026-03-25T02:09:38.872-04:00 [gateway] received SIGTERM; shutting down
+2026-03-25T02:09:38.906-04:00 [gmail-watcher] gmail watcher stopped
+2026-03-25T02:09:39.885-04:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/alphahuynh/.openclaw/canvas)
+2026-03-25T02:09:39.905-04:00 [heartbeat] started
+2026-03-25T02:09:39.906-04:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-25T02:09:39.908-04:00 [gateway] agent model: ollama/kimi-k2.5:cloud
+2026-03-25T02:09:39.909-04:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 10899)
+2026-03-25T02:09:39.910-04:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-25.log
+2026-03-25T02:09:39.923-04:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-25T02:09:39.923-04:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-25T02:09:39.953-04:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-25T02:09:40.475-04:00 [telegram] [default] starting provider (@alphaxparadise_bot)
+2026-03-25T02:09:40.480-04:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-25T02:09:40.482-04:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-25T02:23:42.116-04:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-25T02:23:42.117-04:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-25T02:25:18.512-04:00 [reload] config change detected; evaluating reload (models.providers.ollama.models)
+2026-03-25T02:25:18.545-04:00 [reload] config hot reload applied (models.providers.ollama.models)
+2026-03-25T02:25:28.909-04:00 [telegram] sendMessage ok chat=2015669332 message=2040
+2026-03-25T02:25:54.889-04:00 [reload] config change detected; evaluating reload (models.providers.ollama.models)
+2026-03-25T02:25:54.904-04:00 [reload] config hot reload applied (models.providers.ollama.models)
+2026-03-25T02:25:59.758-04:00 [telegram] sendMessage ok chat=2015669332 message=2043
+2026-03-25T02:26:23.403-04:00 [reload] config change detected; evaluating reload (models.providers.ollama.models)
+2026-03-25T02:26:23.418-04:00 [reload] config hot reload applied (models.providers.ollama.models)
+2026-03-25T02:27:24.973-04:00 [telegram] sendMessage ok chat=2015669332 message=2048
+2026-03-25T02:27:32.975-04:00 [telegram] sendMessage ok chat=2015669332 message=2049
+2026-03-25T02:27:51.487-04:00 [browser/service] Browser control service ready (profiles=2)
+2026-03-25T02:28:01.749-04:00 [browser/chrome] 🦞 openclaw browser profile decorated (#FF4500)
+2026-03-25T02:28:02.010-04:00 [browser/chrome] 🦞 openclaw browser started (chrome) profile "openclaw" on 127.0.0.1:18800 (pid 11200)
+2026-03-25T02:29:33.243-04:00 [telegram] sendMessage ok chat=2015669332 message=2056
+2026-03-25T02:29:34.237-04:00 [telegram] sendMessage ok chat=2015669332 message=2057
+2026-03-25T02:31:24.888-04:00 [telegram] sendMessage ok chat=2015669332 message=2061
+2026-03-25T02:31:25.889-04:00 [telegram] sendMessage ok chat=2015669332 message=2062
+2026-03-25T02:31:54.597-04:00 [telegram] sendMessage ok chat=2015669332 message=2064
+2026-03-25T02:33:58.835-04:00 [telegram] sendMessage ok chat=2015669332 message=2069
+2026-03-25T02:33:59.837-04:00 [telegram] sendMessage ok chat=2015669332 message=2070
+2026-03-25T02:35:56.896-04:00 [telegram] sendMessage ok chat=2015669332 message=2075
