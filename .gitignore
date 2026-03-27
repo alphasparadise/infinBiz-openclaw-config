@@ -1,0 +1,16 @@
+# Agent session data
+agents/main/sessions/
+*.lock
+
+# Browser user data
+browser/openclaw/user-data/
+
+# Update/check files
+update-check.json
+
+# macOS system files
+.DS_Store
+
+agents/main/sessions/
+identity/device-auth.json
+telegram/update-offset-default.json
