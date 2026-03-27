@@ -14,7 +14,7 @@
   },
   "agent:main:main": {
     "sessionId": "d8b9e8b2-8c97-46bb-8edf-38a150944cfa",
-    "updatedAt": 1774501406304,
+    "updatedAt": 1774588123763,
     "systemSent": true,
     "abortedLastRun": false,
     "authProfileOverride": "ollama:default",
@@ -22,14 +22,19 @@
     "authProfileOverrideCompactionCount": 0,
     "chatType": "direct",
     "deliveryContext": {
-      "to": "telegram:2015669332"
+      "channel": "telegram",
+      "to": "telegram:2015669332",
+      "accountId": "default"
     },
     "lastTo": "telegram:2015669332",
     "origin": {
       "label": "telegram:2015669332",
       "provider": "heartbeat",
       "from": "telegram:2015669332",
-      "to": "telegram:2015669332"
+      "to": "telegram:2015669332",
+      "surface": "telegram",
+      "chatType": "direct",
+      "accountId": "default"
     },
     "sessionFile": "/Users/alphahuynh/.openclaw/agents/main/sessions/d8b9e8b2-8c97-46bb-8edf-38a150944cfa.jsonl",
     "compactionCount": 0,
@@ -112,13 +117,13 @@
       "version": 0
     },
     "status": "done",
-    "startedAt": 1774501405850,
+    "startedAt": 1774587051439,
     "modelProvider": "ollama",
     "model": "qwen2.5-coder:7b",
     "contextTokens": 32768,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1774501405846,
+      "generatedAt": 1774587051431,
       "sessionId": "d8b9e8b2-8c97-46bb-8edf-38a150944cfa",
       "sessionKey": "agent:main:main",
       "provider": "ollama",
@@ -362,14 +367,16 @@
         ]
       }
     },
-    "inputTokens": 11989,
-    "outputTokens": 3,
+    "inputTokens": 32768,
+    "outputTokens": 6,
     "cacheRead": 0,
     "cacheWrite": 0,
     "estimatedCostUsd": 0,
-    "totalTokens": 11989,
     "totalTokensFresh": true,
-    "endedAt": 1774501406253,
-    "runtimeMs": 403
+    "lastChannel": "telegram",
+    "lastAccountId": "default",
+    "totalTokens": 32768,
+    "endedAt": 1774588123730,
+    "runtimeMs": 1072291
   }
 }
