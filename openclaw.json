@@ -118,12 +118,14 @@
   },
   "tools": {
     "web": {
+      "automation": "playwright",
       "search": {
         "enabled": true,
         "provider": "duckduckgo"
       },
       "fetch": {
-        "enabled": true
+        "enabled": true,
+        "baseUrl": "http://localhost:8080"
       }
     }
   },
